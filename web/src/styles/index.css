@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 2rem; background: #0b0d12; color: #e8ecf1; }
+.container { max-width: 720px; margin: 0 auto; }
+h1 { margin: 0 0 0.25rem; }
+.tagline { margin: 0 0 1rem; color: #a8b3c2; }
+.controls { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 1rem; }
+.controls select, .controls button { padding: 0.5rem 0.75rem; }
+.guess { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.guess input { flex: 1; padding: 0.6rem 0.75rem; border-radius: 6px; border: 1px solid #2a313d; background: #121720; color: #e8ecf1; }
+.guess button { padding: 0.6rem 0.8rem; border: 1px solid #2a313d; background: #1a2130; color: #e8ecf1; border-radius: 6px; }
+.panel { border: 1px solid #2a313d; padding: 0.75rem; border-radius: 8px; margin-bottom: 1rem; background: #10151e; }
+.error { color: #ff6b6b; }
+.legend { display: flex; gap: 1rem; flex-wrap: wrap; margin: 0.5rem 0 1rem; }
+.legend-item .lbl { margin: 0 0.25rem; }
+.history ul { list-style: none; padding: 0; margin: 0; }
+.history li { display: grid; grid-template-columns: 1rem 1fr 5rem 7rem 1rem; gap: 0.5rem; padding: 0.25rem 0; align-items: center; border-bottom: 1px dashed #223; }
+.dot { margin-right: 0.25rem; }
+.badge { padding: 0.1rem 0.4rem; border-radius: 12px; border: 1px solid #2a313d; }
+.cold { color: #6bbcff; }
+.cool { color: #86e7ff; }
+.warm { color: #ffd166; }
+.hot { color: #ff9f66; }
+.veryhot { color: #ff6b6b; }
+.ok { color: #8cff8c; }
+footer { margin-top: 2rem; color: #8aa0b6; }
